@@ -184,6 +184,6 @@ def design_probe(file_name, name, initiator, path):
     w.close()
     probe_graph(write_file, path)
     
-path = 'H:/Alex/probe_visual/' + name + 'probe_design'
+path = name + 'probe_design'
 os.mkdir(path)
 design_probe(file, name, initiator, path)
